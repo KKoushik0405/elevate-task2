@@ -53,7 +53,8 @@ It's connecting the individual charts into one narrative instead of leaving the 
 Start bar chart axes at zero, don't cherry-pick a date range that flatters the trend, label your units clearly, and don't use 3D or overly decorative chart types that distort how big things look. I also try to show the actual data points (like the scatter plot here) rather than only summarized averages, since averages can hide outliers.
 
 **6. What are best practices in dashboard design?**
-Most important number top-left, since that's where the eye lands first. Group related charts together. Keep colors consistent across the whole dashboard so people don't have to relearn what a color means on every page. Leave whitespace — a cramped dashboard is harder to read than a sparse one.
+Most important number top-left, since that's where the eye lands first. Group related charts together. Keep colors 
+consistent across the whole dashboard so people don't have to relearn what a color means on every page. Leave whitespace — a cramped dashboard is harder to read than a sparse one.
 
 **7. What tools have you used for visualization?**
 For this task I used Python (matplotlib) since I didn't want to pay for Tableau, plus reportlab to put it into a proper PDF report. I've also used Excel/Power BI for quicker exploratory charts. They all follow the same principles — the tool matters less than actually thinking through what story the chart needs to tell.
